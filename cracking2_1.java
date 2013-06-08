@@ -62,7 +62,7 @@ public class cracking2_1 {
         }
 
 //        System.out.println("Size of the input list is " + myList.size());
-        removeDuplicate2(myList.head());
+        removeDuplicate(myList.head());
         showList(myList.head());
     }
 }

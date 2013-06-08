@@ -1,5 +1,3 @@
-import java.lang.Deprecated;
-
 public class DList {
     private DListNode head;
     private DListNode tail;
