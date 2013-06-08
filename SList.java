@@ -21,6 +21,18 @@ public class SList {
         return tail;
     }
     
+    public void setSize(int size) {
+        this.size = size;
+    }
+    
+    public void addToTail(SListNode n) {
+        tail.next = n;
+    }
+    
+    public void setTail(SListNode n) {
+        tail = n;
+    }
+    
     public void insertFront(int item) {
         if(head == null){
             head = new SListNode(item);
