@@ -39,16 +39,21 @@ public class cracking2_4 {
             }
             n = n.next;
         }
-        before.addToTail(after.head());
-        before.setTail(after.tail());
-        before.setSize(before.size()+after.size());
+        if(before.size() == 0) {
+            return after;
+        }
+        else if(after.size() != 0) {
+            before.addToTail(after.head());
+            before.setTail(after.tail());
+            before.setSize(before.size()+after.size());
+        }
         return before;
     }
 
     public static void main(String[] args) {
         int min = 1;
-        int max = 20;
-        int length = 20;
+        int max = 10;
+        int length = 10;
         SList myList = randomLinkedList(min, max, length);
         showList(myList);
         int div = (int)(Math.random() * (max+1-min)+min);
