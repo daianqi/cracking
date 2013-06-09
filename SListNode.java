@@ -14,4 +14,9 @@ public class SListNode {
     public SListNode(int i) {
         this(i,null);
     }
+    
+    public void setNext(SListNode n) {
+        this.next = n;
+    }
+    
 }
