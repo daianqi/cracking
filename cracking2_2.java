@@ -6,16 +6,16 @@ import java.lang.Integer;
 
 public class cracking2_2 {
 
-    public static DList compose(String[] com) {
-        DList myList = new DList();
+    public static SList compose(String[] com) {
+        SList myList = new SList();
         for(int i = 1;i<com.length;i++) {
             myList.insertEnd(Integer.parseInt(com[i]));
         }
         return myList;
     }
 
-    public static void showList(DList myList) {
-        DListNode n = myList.head();
+    public static void showList(SList myList) {
+        SListNode n = myList.head();
         while(n != null) {
             System.out.print(n.item + "->");
             n = n.next;
@@ -23,10 +23,10 @@ public class cracking2_2 {
         System.out.println();
     }
 
-    public static int findKth(DList myList, int kth) {
+    public static int findKth(SList myList, int kth) {
 //        if(kth < 0)  return -1;
-        DListNode n1 = myList.head();
-        DListNode n2 = myList.head();
+        SListNode n1 = myList.head();
+        SListNode n2 = myList.head();
         for(int i =0;i<kth;i++) {
 //            if(n1 == null) return -1;
             n1 = n1.next;
@@ -44,7 +44,7 @@ public class cracking2_2 {
         if(args.length == 0 || Integer.parseInt(args[0]) < 0 || Integer.parseInt(args[0]) >= args.length - 1)
             return;
         int kth = Integer.parseInt(args[0]);
-        DList myList = compose(args);
+        SList myList = compose(args);
         showList(myList);
         System.out.println(findKth(myList, kth));
     }
