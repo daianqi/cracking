@@ -1,10 +1,10 @@
-import java.lang.Math;
-import java.lang.System;
-
 /*
 Write code to partition a linked list around a value x, such that all nodes less than x come before all nodes greater than
 or equal to x.
 */
+
+import java.lang.Math;
+import java.lang.System;
 
 public class cracking2_4 {
     public static SList randomLinkedList(int min, int max, int length) {
