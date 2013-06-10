@@ -1,5 +1,5 @@
 /*
-Given a circular list, implement an algorithm which returns the node at the beginning of the loop
+Given a circular list, implement an algorithm which returns the node at the beginning of the loop.
 */
 
 import java.lang.Math;
