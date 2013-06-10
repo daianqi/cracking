@@ -1,9 +1,9 @@
-import java.lang.Math;
-import java.lang.System;
-
 /*
 Given a circular list, implement an algorithm which returns the node at the beginning of the loop
 */
+
+import java.lang.Math;
+import java.lang.System;
 
 public class cracking2_6 {
 
