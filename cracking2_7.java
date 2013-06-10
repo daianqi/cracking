@@ -1,10 +1,10 @@
-import java.lang.Integer;
-import java.lang.Math;
-import java.lang.System;
-
 /*
 Implement a function to check if a linked list is a palinfrome. (0->1->2->1->0, 0->1->2->2->1->0)
 */
+
+import java.lang.Integer;
+import java.lang.Math;
+import java.lang.System;
 
 public class cracking2_7 {
 
