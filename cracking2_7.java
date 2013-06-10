@@ -26,20 +26,20 @@ public class cracking2_7 {
     }
 
     public static boolean checkPalinfrome(SListNode head) {
-        result res = checkPalinfrome2(head, length(head));
+        Result res = checkPalinfrome2(head, length(head));
         return res.result;
     }
 
-    public static result checkPalinfrome2(SListNode head, int length) {
+    public static Result checkPalinfrome2(SListNode head, int length) {
         //basic case, although only one will be handled
         if(head == null || length == 0)
-            return new result(null, true);
+            return new Result(null, true);
         else if(length == 1)
-            return new result(head.next, true);
+            return new Result(head.next, true);
         else if(length == 2) //genius!
-            return new result(head.next.next, head.item == head.next.item);
+            return new Result(head.next.next, head.item == head.next.item);
 
-        result res = checkPalinfrome2(head.next, length - 2); //head go one step further, length-2
+        Result res = checkPalinfrome2(head.next, length - 2); //head go one step further, length-2
         // cases except basics will be generated below, do things on them!
         if(!res.result || res.node == null)
             return res;

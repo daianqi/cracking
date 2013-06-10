@@ -136,12 +136,12 @@ public class cracking2_5 {
             <the return listnode provides a base to insertBefore>
     */
 
-    public static sumCarry addition2helper(SListNode n1, SListNode n2) {
+    public static SumCarry addition2helper(SListNode n1, SListNode n2) {
         if(n1 == null && n2 == null){
-            sumCarry sc = new sumCarry();
+            SumCarry sc = new SumCarry();
             return sc;
         }
-        sumCarry sc = addition2helper(n1.next,n2.next);
+        SumCarry sc = addition2helper(n1.next,n2.next);
         int addSum = n1.item+n2.item+sc.carry;
         SListNode result = insertBefore(sc.sum,addSum%10);
 
@@ -157,7 +157,7 @@ public class cracking2_5 {
         n2 = length(n1)>length(n2)?padding(n2,length(n1)-length(n2)):n2;
         showList(n1);
         showList(n2);
-        sumCarry result = addition2helper(n1,n2);
+        SumCarry result = addition2helper(n1,n2);
 
         if(result.carry == 0)        //stupidly forgetting the leftover carry
             return result.sum;

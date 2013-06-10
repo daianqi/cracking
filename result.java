@@ -1,8 +1,8 @@
-public class result {
+public class Result {
     SListNode node;
     boolean result;
 
-    result(SListNode n, boolean b) {
+    Result(SListNode n, boolean b) {
         node = n;
         result = b;
     }
