@@ -33,6 +33,10 @@ public class SList {
         tail = n;
     }
     
+    public void setTailNext(SListNode n) {
+        this.tail.next = n;
+    }
+    
     public void insertFront(int item) {
         if(head == null){
             head = new SListNode(item);
