@@ -2,6 +2,7 @@
 Tower of Hanoi
 */
 
+
 import java.lang.System;
 
 public class Tower {
@@ -38,6 +39,8 @@ public class Tower {
             buffer.moveDisks(n-1,destination,this);
         }
     }
+
+
 }
 
 public static void main(String[] args) {
@@ -51,5 +54,3 @@ public static void main(String[] args) {
     }
     towers[0].moveDisks(n,towers[2],towers[1]);
 }
-
-
