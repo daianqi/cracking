@@ -9,7 +9,7 @@ import java.util.LinkedList;
 
 public class cracking4_4 {
 
-    public static ArrayList< LinkedList<TreeNode> > levelTraverse (TreeNode n) {
+    public static ArrayList<LinkedList<TreeNode>> levelTraverse (TreeNode n) {
         LinkedList<TreeNode> listOld = new LinkedList<TreeNode>();
         LinkedList<TreeNode> listNew = new LinkedList<TreeNode>();
         ArrayList< LinkedList<TreeNode> > array = new ArrayList<LinkedList<TreeNode>>();
