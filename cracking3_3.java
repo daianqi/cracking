@@ -1,6 +1,5 @@
 /*
-Implementa data structure SetOfStacks that mimics this. SetOfStacks should be composed of several stacks and should create a new stack once the previous one exceeds capacity. SetOfStacks.push() and SetOfStacks.pop() should behave identically to a
-single stack.
+Implementa data structure SetOfStacks that mimics this. SetOfStacks should be composed of several stacks and should create a new stack once the previous one exceeds capacity. SetOfStacks.push() and SetOfStacks.pop() should behave identically to a single stack.
 FOLLOW UP
 Implement a function popAt(int index) which performs a pop operation on a specific sub-stack.
 */
