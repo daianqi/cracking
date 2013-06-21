@@ -1,3 +1,7 @@
+/*
+Given a two-dimensional graph with points on it, find a line which passes the most number of points.
+*/
+
 import java.lang.Double;
 import java.util.ArrayList;
 import java.util.HashMap;
