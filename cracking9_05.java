@@ -21,19 +21,20 @@ public class cracking9_05 {
             permutations.add("");
             return permutations;
         }
-        char first = str.charAt(0);
-        String remainder = str.substring(1);
-        ArrayList<String> words = book(remainder);
-        for(String word : words) {
+        char first = str.charAt(0);    //keep track of the first char
+        String remainder = str.substring(1);  //get rid of the first char
+
+        ArrayList<String> words = book(remainder);    //recursive
+
+        for(String word : words) {            //insert into every possible pos
             for(int j = 0;j<=word.length();j++) {
                 String s = insertCharAt(word,first,j);
                 permutations.add(s);
             }
         }
+
         return permutations;
     }
-
-
 
     public static ArrayList<String> printHelper(char[] charArray, int index) {
         ArrayList<String> newArray;
