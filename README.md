@@ -9,4 +9,4 @@ The major value in life is what you become.
 Success is not to be pursued;
 it is to be attracted by the person you become.
 
-- Jim Rohn
+by Jim Rohn
