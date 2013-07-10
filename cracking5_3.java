@@ -1,5 +1,6 @@
 /*
-Given a positive integer, print the next smallest and the next largest number that have the same number of 1 bits in their binary representation.
+Given a positive integer, print the next smallest and the next largest number that have the same number of 1 bits in their
+binary representation.
 */
 
 import java.io.BufferedReader;
@@ -12,11 +13,13 @@ import java.util.ArrayList;
 
 public class cracking5_3 {
     /*
-    Smallest of larger: set the right-most non-trailing(non-ending) 0 to 1, and re-organize all 0s and 1s to the right of the flipping one, so that all 1s are to the right(make smallest)
+    Smallest of larger: set the right-most non-trailing(non-ending) 0 to 1, and re-organize all 0s and 1s to the right of the
+    flipping one, so that all 1s are to the right(make smallest)
     */
 
     /*
-    Largest of smaller: set the right-most non-trailing(non-ending) 1 to 0, and re-organize all 0s and 1s to the right of the flipping one, so that all 1s are to the left(make largest)
+    Largest of smaller: set the right-most non-trailing(non-ending) 1 to 0, and re-organize all 0s and 1s to the right of the
+    flipping one, so that all 1s are to the left(make largest)
     */
 
     public static int getBit(int N, int pos) {

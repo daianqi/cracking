@@ -1,5 +1,6 @@
 /*
-Given the heights and weights of each person in the circus, write a method to compute the largest possible number of people in such a tower.
+Given the heights and weights of each person in the circus, write a method to compute the largest possible number of people
+in such a tower.
 */
 
 import java.lang.System;

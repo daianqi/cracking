@@ -1,5 +1,6 @@
 /*
-Given an infinite number of quarters(25 cents), dimes(10 cents), nickles(5 cents), pennies(1 cent), write code to calculate the number of ways of representing n cents.
+Given an infinite number of quarters(25 cents), dimes(10 cents), nickles(5 cents), pennies(1 cent), write code to calculate
+the number of ways of representing n cents.
 */
 
 import java.lang.Integer;
