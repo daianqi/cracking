@@ -10,6 +10,7 @@ import java.util.Comparator;
 import java.lang.System;
 
 public class cracking11_2 {
+    
     /*********************************hashTable***********************************/
     public static void hashSort(String[] array) {
         HashMap<String, ArrayList<String>> hash = new HashMap<String, ArrayList<String>>();
