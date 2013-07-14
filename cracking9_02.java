@@ -17,7 +17,6 @@ import java.lang.System;
 import java.util.ArrayList;
 
 public class cracking9_02 {
-
     public static int possiblePath(int x, int y, int X, int Y) {
         if(x == X-1 && y == Y-1)
             return 1;
