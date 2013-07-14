@@ -1,6 +1,4 @@
-/*
-Animal Shelter
-*/
+/*Animal Shelter*/
 
 import java.lang.Integer;
 import java.lang.System;
