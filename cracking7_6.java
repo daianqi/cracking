@@ -7,6 +7,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 
 public class cracking7_6 {
+    
     public static int countEqualLinesHelper (ArrayList<Line> lines, Line line) {
         if(lines == null) return 0;
         int count = 0;
