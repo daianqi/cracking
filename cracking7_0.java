@@ -10,6 +10,7 @@ import java.lang.Math;
 import java.lang.System;
 
 public class cracking7_0 {
+    
     public static boolean[] crossOut(int prime, boolean[] flags) {
         for(int i = prime*prime;i<flags.length;i+=prime) {   //stupid mind doesn't know prime^2
             flags[i] = false;
