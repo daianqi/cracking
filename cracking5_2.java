@@ -12,6 +12,7 @@ import java.lang.System;
 import java.util.ArrayList;
 
 public class cracking5_2 {
+    
     public static ArrayList<Integer> decimalToBinary(double N) {
         ArrayList<Integer> result = new ArrayList<Integer>();
         int count = 0;
