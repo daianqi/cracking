@@ -8,6 +8,7 @@ import java.util.ArrayList;
 import java.util.Set;
 
 public class cracking9_04 {
+    
     public static void print(ArrayList<ArrayList<Integer>> output) {
         for(ArrayList<Integer> array : output) {
             printhelper(array);
