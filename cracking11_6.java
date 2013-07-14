@@ -5,6 +5,7 @@ Given an M*N matrix in which each row and each column is sorted in ascending ord
 import java.lang.System;
 
 public class cracking11_6 {
+    
     public static boolean findEleHelp(int ele,int[][] array,int x,int y) {
         if(x>=array.length || y<0)
             return false;
