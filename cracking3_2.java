@@ -6,6 +6,7 @@ Push, pop and min should all operate in O(1) time.
 import java.lang.System;
 
 public class cracking3_2 {
+    
     public static SListNode top = null;
     public static SListNode minTop = null;
 
