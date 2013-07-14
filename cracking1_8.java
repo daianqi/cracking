@@ -4,6 +4,7 @@ code to check if s2 is a rotation of s1 using only one call to isSubstring(e.g.,
 */
 
 public class cracking1_8 {
+    
     public static boolean isRotation(String str1, String str2) {
         if(str1.length() == str2.length() && str1.length()>0) {
             String str1str1 = str1 + str1;
