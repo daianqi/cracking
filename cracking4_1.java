@@ -4,7 +4,6 @@ a tree such that the heights of the two subtrees of any node never differ by mor
 */
 
 public class cracking4_1 {
-
     //step1:
     public int checkHeight(TreeNode n) {
         if(n == null)
