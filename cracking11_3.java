@@ -7,6 +7,7 @@ import java.lang.Integer;
 import java.lang.System;
 
 public class cracking11_3 {
+    
     public static int bookHelp(int x,Integer[] a,int left, int right) {
         int mid = (left + right)/2;
         if(x==a[mid])
