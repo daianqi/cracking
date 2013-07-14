@@ -5,6 +5,7 @@ the original color.
 */
 
 public class cracking9_07 {
+    
     enum Color {
         Black, White, Red, Yellow, Green
     }
