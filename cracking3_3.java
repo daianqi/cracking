@@ -9,6 +9,7 @@ Implement a function popAt(int index) which performs a pop operation on a specif
 import java.util.ArrayList;
 
 public class cracking3_3 {
+    
     ArrayList<MyStack> stacks = new ArrayList<MyStack>();
     public int capacity;
 
