@@ -6,6 +6,7 @@ nodes in a data structure. NOTE: This is not necessarily a binary search tree.
 import java.lang.System;
 
 public class cracking4_7 {
+    
     public static boolean contains(TreeNode root, TreeNode n) {
         if(root == null)
             return false;
