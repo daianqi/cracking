@@ -9,6 +9,7 @@ import java.lang.System;
 import java.util.ArrayList;
 
 public class cracking9_09 {
+ 
     public static boolean checkValid(Integer[] columns, int row, int col) {
         for(int row2 = 0; row2< row; row2++) {
             int col2 = columns[row2];
