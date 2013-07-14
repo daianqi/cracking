@@ -4,6 +4,7 @@ Given an image represented by an N*N matrix, where each pixel in the image is 4 
 */
 
 public class cracking1_6 {
+    
     public void rotate(int[][] matrix, int n) {
         for(int layer = 0; layer < n/2;layer++) {
             int first = layer;
