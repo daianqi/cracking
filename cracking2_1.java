@@ -9,6 +9,7 @@ import java.util.Hashtable;
 import java.lang.Integer;
 
 public class cracking2_1 {
+    
     public static void removeDuplicate(SListNode n) {
         Hashtable<Integer, Boolean> myTable = new Hashtable<Integer, Boolean>();
         SListNode tmp = null;
