@@ -9,6 +9,7 @@ import java.lang.System;
 import java.util.ArrayList;
 
 public class cracking11_8 {
+    
     public static int getRankOfNumber(int x,augmentedTree myTree) {
         augmentedTreeNode tmp = myTree.root;
         int count = 0;
