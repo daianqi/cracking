@@ -8,6 +8,7 @@ import java.lang.System;
 import java.util.ArrayList;
 
 public class cracking4_9 {
+    
     public static void printAll(TreeNode root, int sum) {
         int tmpSum = 0;
         ArrayList<Integer> printList = new ArrayList<Integer>();
