@@ -7,7 +7,6 @@ import java.lang.System;
 import java.util.LinkedList;
 
 public class cracking4_2 {
-
     public static boolean hasRouteDepth(int start, int end, boolean[][] map, boolean[] visited) {
         if(start == end)
             return true;
