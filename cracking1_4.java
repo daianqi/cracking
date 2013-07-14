@@ -3,6 +3,7 @@ Write a method to replace all spaces in a string with ‘%20’. You may assume 
 of the string to hold the additional characters, and that you are given the "true" length of the string. (Note: if implemented
 in Java, please use a character array so that you can perform this operation in place.)
 */
+
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.io.IOException;
