@@ -7,6 +7,7 @@ import java.lang.System;
 import java.util.ArrayList;
 
 public class cracking9_05 {
+    
     public static String insertCharAt(String word, char first, int pos) {
         String start = word.substring(0,pos);
         String end = word.substring(pos);
