@@ -6,6 +6,7 @@ import java.lang.System;
 import java.util.Stack;
 
 public class cracking3_5 {
+    
     public static Stack<Integer> forDequeue = new Stack<Integer>();
     public static Stack<Integer> forEnqueue = new Stack<Integer>();
 
