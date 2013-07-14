@@ -1,6 +1,4 @@
-/*
-Tower of Hanoi
-*/
+/*Tower of Hanoi*/
 
 import java.lang.System;
 
