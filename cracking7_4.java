@@ -6,6 +6,7 @@ import java.lang.ArithmeticException;
 import java.lang.System;
 
 public class cracking7_4 {
+    
     public static int negate(int a) {
         int d = (a>0)? -1 : 1;
         int neg = 0;
