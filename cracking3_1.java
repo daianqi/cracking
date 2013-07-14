@@ -6,6 +6,7 @@ import java.lang.Exception;
 import java.lang.System;
 
 public class cracking3_1 {
+    
     static int number_of_stack = 3;
     static int default_size = 4;
     static int total_size = default_size*number_of_stack;
