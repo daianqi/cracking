@@ -6,7 +6,6 @@ each node has a link to it parent.
 import java.lang.System;
 
 public class cracking4_6 {
-
     public static TreeNode leftMost(TreeNode root) {
         if(root == null)
             return null;
