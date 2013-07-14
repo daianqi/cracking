@@ -27,6 +27,7 @@ Implement an algorithm to determine if a string has all unique characters. What 
 
 
 //slightly change dumb doing to ACSII string
+
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.io.IOException;
