@@ -3,6 +3,7 @@ Write an algorithm such that if an element in an M*N matrix is 0, its entire row
 */
 
 public class cracking1_7 {
+    
     public static void setZero (int[][] matrix) {
         boolean[] row = new boolean[matrix.length];
         boolean[] column = new boolean[matrix[0].length];
