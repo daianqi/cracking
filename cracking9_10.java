@@ -8,6 +8,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 
 public class cracking9_10 {
+    
     public ArrayList<Box> createStackR(Box[] boxes, Box bottom) {
         int max_height = 0;
         ArrayList<Box> max_stack = null;
