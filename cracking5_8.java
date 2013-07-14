@@ -12,6 +12,7 @@ import java.lang.Integer;
 import java.util.ArrayList;
 
 public class cracking5_8 {
+    
     public static void drawHorizontalLine(byte[] screen, int width, int x1, int x2, int y) {
         int start_offset = x1%8;
         int first_full_byte = x1/8;
