@@ -6,7 +6,6 @@ import java.lang.Math;
 import java.lang.System;
 
 public class cracking2_6 {
-
     public static SList randomLinkedList(int min, int max, int length, int loopPoint) {
         SList myList = new SList();
         SListNode loop = null;
