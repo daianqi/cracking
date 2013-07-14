@@ -6,6 +6,7 @@ import java.lang.String;
 import java.lang.System;
 
 public class cracking9_06 {
+    
     public static void printAllCombinationHelper(int pairs, int left, int right, String str) {
         if(left == pairs) {
             if(right == pairs)
