@@ -9,7 +9,6 @@ import java.lang.System;
 import java.util.Stack;
 
 public class cracking3_6 {
-
     public static Stack<Integer> sort(Stack<Integer> stack) {
         Stack<Integer> bufferStack = new Stack<Integer>();
         while(!stack.isEmpty()) {
