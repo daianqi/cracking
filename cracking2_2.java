@@ -5,7 +5,6 @@ Implement an algorithm to find the kth to last element of a singly linked list.
 import java.lang.Integer;
 
 public class cracking2_2 {
-
     public static SList compose(String[] com) {
         SList myList = new SList();
         for(int i = 1;i<com.length;i++) {
