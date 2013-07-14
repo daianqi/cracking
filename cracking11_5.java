@@ -3,6 +3,7 @@ Given a sorted array of strings which is interspersed with empty strings, write 
 */
 
 public class cracking11_5 {
+    
     public static int findStringHelp(String str,String[] array,int start,int end) {
         if(start > end)
             return -1;
