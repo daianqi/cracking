@@ -8,6 +8,7 @@ Write a method to print the last K lines of an input file using C++.
 using namespace std;
 
 void printLastKLines (int k, const char* filename) {
+    
     const int numLine = k;
     ifstream file(filename);
     string L[k];
