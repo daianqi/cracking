@@ -10,7 +10,6 @@ import java.lang.Integer;
 import java.lang.System;
 
 public class cracking9_01 {
-
     public static int numOfWays(int N) {
         if(N >= 3)
             return numOfWays(N-3) + numOfWays(N-2) + numOfWays(N-1);
