@@ -31,7 +31,6 @@ public class cracking11_7 {
     }
 
     public static void mergeSort(pair[] array,pair[] record,int start,int end){
-
         if(start >= end)
             return;
         int mid = (start+end)/2;
