@@ -7,6 +7,7 @@ import java.lang.Math;
 import java.lang.System;
 
 public class cracking2_4 {
+    
     public static SList randomLinkedList(int min, int max, int length) {
         SList myList = new SList();
         for(int i = 0;i<length;i++) {
