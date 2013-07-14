@@ -21,7 +21,6 @@ public class cracking10_4 {
 
     class BitSet {
         int[] bitset;
-
         public BitSet(int size) {
             bitset = new int[size>>5];  //divide by 32
         }
