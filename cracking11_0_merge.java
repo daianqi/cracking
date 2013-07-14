@@ -1,6 +1,4 @@
-/*
-Merge Sort
-*/
+/*Merge Sort*/
 
 import java.lang.Math;
 import java.lang.System;
