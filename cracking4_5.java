@@ -7,7 +7,6 @@ import java.util.ArrayList;
 
 public class cracking4_5 {
     //stupid mind: BST != (left.date <= current.data < right.data)
-
     //smart MinMax method to set range
     public static boolean checkBSTbyMinMax (TreeNode root, int Max, int Min) {
         if(root == null)
