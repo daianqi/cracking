@@ -15,6 +15,7 @@ import java.lang.Integer;
 import java.lang.System;
 
 public class cracking5_1 {
+    
     public static int mix(int N, int M, int small, int big) {
         for(int i = small; i<big;i++) {
             int mask = 1<<i;
