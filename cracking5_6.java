@@ -22,3 +22,4 @@ public class cracking5_6 {
         System.out.println("the number after swap: " + swap(a));
     }
 }
+
