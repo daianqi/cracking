@@ -1,6 +1,4 @@
-/*
-Binary Search
-*/
+/*Binary Search*/
 
 import java.lang.Math;
 import java.lang.System;
