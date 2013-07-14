@@ -5,6 +5,7 @@ Design and implement a hash table which uses chaining(linked list) to handle col
 import java.util.LinkedList;
 
 public class cracking8_10 {
+    
     public class Cell<K, V> {
         private K key;
         private V value;
