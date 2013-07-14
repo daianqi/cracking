@@ -1,5 +1,6 @@
 /*
-Implement a CircularArray class that supports an array-like data structure which can be efficiently rotated. The class should use
+Implement a CircularArray class that supports an array-like data structure which can be efficiently rotated. The class should 
+use
 a generic type, and should support iteration via standard for(Obj o:circularArray) notation.
 */
 
