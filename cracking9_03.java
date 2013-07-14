@@ -9,6 +9,7 @@ import java.lang.Math;
 import java.lang.System;
 
 public class cracking9_03 {
+    
     public static int findMagicIndex(int[] array,int min,int max) {
         if(min >= max)
             return -1;
