@@ -9,7 +9,6 @@ import java.util.ArrayList;
 import java.util.LinkedList;
 
 public class cracking4_3 {
-
     public static TreeNode generateTree(int start, int end, int[] array) {
         TreeNode n = new TreeNode();
         if(start>end) {       //stupid bug is here when the total number of elements are even
