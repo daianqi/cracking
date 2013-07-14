@@ -5,6 +5,7 @@ Implement an algorithm to delete a node in the middle of a singly linked list, g
 import java.lang.System;
 
 public class cracking2_3 {
+    
     public static SList compose(String[] com) {
         SList myList = new SList();
         for(int i = 0;i<com.length;i++) {
