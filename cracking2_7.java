@@ -7,7 +7,6 @@ import java.lang.Math;
 import java.lang.System;
 
 public class cracking2_7 {
-
     public static void showList(SListNode n) {
         while(n != null) {
             System.out.print(n.item + "->");
