@@ -7,6 +7,7 @@ import java.lang.Integer;
 import java.lang.System;
 
 public class cracking9_08 {
+    
     public static int book(int n, int denom) {
         int next_denom = 0;
         switch (denom) {
