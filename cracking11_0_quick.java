@@ -1,6 +1,4 @@
-/*
-Quick Sort
-*/
+/*Quick Sort*/
 
 import java.lang.Math;
 import java.lang.System;
